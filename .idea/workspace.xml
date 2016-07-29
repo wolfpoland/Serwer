@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2862bdf7-99b8-4559-a046-b0840b69a837" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$1.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$10.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$11.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$12.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$13.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$14$1.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$14$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$14.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$15.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$16.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$17$1.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$17$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$17.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$2.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$3.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$4.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$5.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$6.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$7.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$8.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$9$1.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$9$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$9.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny.class" afterPath="$PROJECT_DIR$/out/production/Serwer/PanelGlowny.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PanelGlowny.java" afterPath="$PROJECT_DIR$/src/PanelGlowny.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestBaza.java" afterPath="$PROJECT_DIR$/src/TestBaza.java" />
-    </list>
+    <list default="true" id="2862bdf7-99b8-4559-a046-b0840b69a837" name="Default" comment="" />
     <ignored path="Serwer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -553,7 +528,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -562,7 +537,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14799154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14799154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
