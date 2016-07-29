@@ -8,12 +8,7 @@ import java.awt.Image;
 import java.awt.MouseInfo;
 import java.awt.Point;
 import java.awt.Toolkit;
-import java.awt.dnd.DnDConstants;
-import java.awt.dnd.DragGestureListener;
-import java.awt.dnd.DragSource;
-import java.awt.dnd.DropTarget;
-import java.awt.dnd.DropTargetDropEvent;
-import java.awt.dnd.DropTargetEvent;
+import java.awt.dnd.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputEvent;
@@ -201,6 +196,7 @@ public class PanelGlowny extends javax.swing.JFrame {
 								dst.createNewFile();
 							}
 							Files.copy(source.toPath(), dst.toPath(), StandardCopyOption.REPLACE_EXISTING);
+							robiePanle(jComboBox1);
 						}
 					} catch (UnsupportedFlavorException | IOException e) {
 						// TODO Auto-generated catch block
@@ -824,8 +820,9 @@ public class PanelGlowny extends javax.swing.JFrame {
 		 //      lol.mouseDragged(arg0); 
 		        	int tmpi=n;
 		        	   taba[n].setDropTarget(new DropTarget(){
-			            	
+
 			            	public synchronized void drop(DropTargetDropEvent dtde){
+			            		System.out.println("Drop poszedl");
 			            		Transferable transfer=dtde.getTransferable();
 			            		System.out.println("Cos sie dzieje !!!");
 			            		DataFlavor[] lol=transfer.getTransferDataFlavors();
@@ -846,6 +843,8 @@ public class PanelGlowny extends javax.swing.JFrame {
 			    							}
 			    							Files.copy(source.toPath(), dst.toPath(), StandardCopyOption.REPLACE_EXISTING);
 			    						}
+			    						System.out.println("\t ODSWIERZAM");
+			    						robiePanle(jComboBox1);
 			    					} catch (UnsupportedFlavorException | IOException e) {
 			    						// TODO Auto-generated catch block
 			    						e.printStackTrace();
@@ -853,10 +852,18 @@ public class PanelGlowny extends javax.swing.JFrame {
 			            		}
 			            		
 			            	}
-			            });
+
+						   @Override
+						   public synchronized void dropActionChanged(DropTargetDragEvent dtde) {
+							   super.dropActionChanged(dtde);
+							   System.out.println("Cos sie dzieje bejbe drop !!");
+							   robiePanle(jComboBox1);
+						   }
+					   });
 		        	taba[n].addMouseMotionListener(new MouseAdapter(){
 		        		
 		        		public void mouseDragged(MouseEvent event){
+		        			System.out.println("Dragama");
 		        			int mode;
 		        			if((event.getModifiers() & (InputEvent.CTRL_MASK | InputEvent.SHIFT_MASK))!=0){
 		        				mode=TransferHandler.COPY;

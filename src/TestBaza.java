@@ -17,7 +17,7 @@ public class TestBaza {
 	public static void CreateTable() throws SQLException, ClassNotFoundException{
 		polaczZBaza();
 		Statement stm=c.createStatement();
-		String sql="CREATE TABLE uzytkownik ("+
+		String sql="CREATE TABLE uzytkowniko ("+
 		 "ID SERIAL PRIMARY KEY,"+
 		 "imie 	TEXT NOT NULL,"+
 		 "nazwisko TEXT NOT NULL,"+
@@ -31,7 +31,7 @@ public class TestBaza {
 	public static Uzytkownik Logowanie(String mail, String haslo) throws ClassNotFoundException, SQLException{
 		polaczZBaza();
 		Statement stm=c.createStatement();
-		String sql="SELECT * FROM uzytkownik WHERE mail= '"+mail+"' AND haslo= '"+haslo+"' ;";
+		String sql="SELECT * FROM uzytkowniko WHERE mail= '"+mail+"' AND haslo= '"+haslo+"' ;";
 		ResultSet rs=stm.executeQuery(sql);
 		Uzytkownik uz = null;
 		while(rs.next()){
